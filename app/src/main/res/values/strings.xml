@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Jetpack Navigation</string>
+    <string name="welcome">Welcome</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgetpassword">Forget Password?</string>
+    <string name="alreadyaccount">Already Have Account</string>
+    <string name="login">Login</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="address">Address</string>
+    <string name="phoneno">Phone No</string>
+    <string name="signup">Sign Up</string>
+    <string name="next">Next</string>
+    <string name="resetpassword">Reset Password</string>
+    <string name="newpassword">New Password</string>
+    <string name="ok">Ok</string>
+    <string name="show">Show</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/log_in.xml"
+    app:startDestination="@id/logIn">
+
+    <fragment
+        android:id="@+id/logIn"
+        android:name="com.example.jetpacknavigation.LogIn"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" />
+    <fragment
+        android:id="@+id/forgetPassword"
+        android:name="com.example.jetpacknavigation.ForgetPassword"
+        android:label="fragment_forget_password"
+        tools:layout="@layout/fragment_forget_password" />
+    <fragment
+        android:id="@+id/otpScreen"
+        android:name="com.example.jetpacknavigation.OtpScreen"
+        android:label="fragment_otp_screen"
+        tools:layout="@layout/fragment_otp_screen" />
+    <fragment
+        android:id="@+id/newPasswordScreen"
+        android:name="com.example.jetpacknavigation.NewPasswordScreen"
+        android:label="fragment_new_password_screen"
+        tools:layout="@layout/fragment_new_password_screen" />
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.jetpacknavigation.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="com.example.jetpacknavigation.MainActivity2"
+        android:label="activity_main2"
+        tools:layout="@layout/activity_main2" />
+</navigation>
